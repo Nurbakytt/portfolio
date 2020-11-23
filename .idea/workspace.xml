@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606132100496</updated>
-      <workItem from="1606132101705" duration="9776000" />
+      <workItem from="1606132101705" duration="16967000" />
     </task>
     <servers />
   </component>
@@ -47,5 +48,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="116" y="100" width="1025" height="716" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1606132600683" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1606147855811">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1606147855811" />
   </component>
 </project>
