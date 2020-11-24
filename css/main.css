@@ -2,25 +2,31 @@
 @import "variables.css";
 @import "utility.css";
 @import "fonts.css";
-
 .header {
     padding: 16px 26px 0 26px;
-    font-family: Gilroy-Medium ,sans-serif;
+    font-family: Gilroy-Medium, sans-serif;
 }
 
 .header-title span {
-    font-family: Gilroy-Bold,sans-serif;
+    font-family: Gilroy-Bold, sans-serif;
     font-weight: 500;
     font-size: 37px;
     line-height: 45px;
 }
 
 .header-text {
-    font-family: Gilroy-Medium,sans-serif;
+    font-family: Gilroy-Medium, sans-serif;
     padding-top: 23px;
     font-size: 18px;
     line-height: 22px;
     color: var(--primary-black);
+}
+
+.menu-toggle span {
+    width: 32px;
+    height: 4px;
+    margin-bottom: 4px;
+    background-color: var(--primary-black);
 }
 
 .menu-content span {
@@ -70,58 +76,83 @@
 }
 
 .menu-content-link {
-    font-family: Gilroy-Bold,sans-serif;
+    font-family: Gilroy-Bold, sans-serif;
     font-size: 34px;
     line-height: 42px;
     color: #828282;
     text-decoration: none;
 }
 
+.image {
+    padding: 29px 29px 60px 29px;
+}
 
+.about-me {
+    padding: 81px 30px 75px 30px;
+    background: #F6F6F6;
+}
 
+.about-me-title {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: var(--primary-black);
+    padding-bottom: 29px;
+}
 
+.about-me-text {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--primary-black);
+    padding-bottom: 25px;
+}
 
+.skills {
+    padding-top: 80px;
+    padding-bottom: 95px;
+}
 
+.skills-title {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: var(--primary-black);
+    padding-bottom: 29px;
+}
 
+.skills-text {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 75px;
+}
 
+.skills-content-text {
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 24px;
+    margin-bottom: 50px;
+    color: #828282;
+}
 
+.skills-content-stars {
+    margin-bottom: 60px;
+}
 
+.portfolio {
+    background-color: #F6F6F6;
+    padding: 80px 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.portfolio-title {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: var(--primary-black);
+    padding-bottom: 29px;
+}
 
 @media (min-width: 768px) {
     .nav__links {
@@ -130,5 +161,8 @@
 }
 
 @media (min-width: 992px) {
-    
+    .skills-content {
+        display: flex;
+        justify-content: space-between;
+    }
 }
