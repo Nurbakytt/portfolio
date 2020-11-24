@@ -43,10 +43,14 @@
     right: 0;
     bottom: 0;
     height: 100vh;
-    /*display: none;*/
+    display: none;
     padding: 36px 26px;
+    
 }
 
+.menu .visible {
+    transform: translateX(0);
+}
 .close .first {
     position: absolute;
     width: 27px;
@@ -153,6 +157,29 @@
     color: var(--primary-black);
     padding-bottom: 29px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 768px) {
     .nav__links {
