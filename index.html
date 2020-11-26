@@ -6,63 +6,49 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <title>Nico</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
     <header class="header">
         <div class="header-menu flex justify-between">
             <p class="header-title flex flex-column">
-                <span>Nurbakyt</span> <span>Dalimbek</span>
+                <span>Нурбакыт</span><span>Далимбек</span>
             </p>
-            <a href="#" class="menu-toggle flex flex-column" id="menu_toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
         </div>
+        <button class="ham"></button>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#" class="menuLink">Home</a>
+                </li>
+                <li><a href="#" class="menuLink">About me</a>
+                </li>
+                <li><a href="#" class="menuLink">Skills</a>
+                </li>
+                <li><a href="#" class="menuLink">Portfolio</a>
+                </li>
+                <li><a href="#" class="menuLink">Contacts</a>
+                </li>
+            </ul>
+        </nav>
         <div class="header-text flex flex-column">
-            <span>junior developer</span>
-            <span>22 years old, Almaty</span>
+            <span>младший разработчик</span>
+            <span>22 года, г. Алматы</span>
         </div>
     </header>
-    <div class="menu flex flex-column">
-        <div class="menu-content flex justify-between">
-            <div class="menu-content_nav flex flex-column">
-                <ul class="menu-content_list">
-                    <li class="menu-content-list_item">
-                        <a href="#" class="menu-content-link active">Home</a>
-                    </li>
-                    <li class="menu-content-list_item">
-                        <a href="" class="menu-content-link">About me</a>
-                    </li>
-                    <li class="menu-content-list_item">
-                        <a href="" class="menu-content-link">Skills</a>
-                    </li>
-                    <li class="menu-content-list_item">
-                        <a href="" class="menu-content-link">Portfolio</a>
-                    </li>
-                    <li class="menu-content-list_item">
-                        <a href="" class="menu-content-link">Contacts</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="close">
-                <span class="first"></span>
-                <span class="second"></span>
-            </div>
-        </div>
-    </div>
     <section class="image">
-        <img src="images/myphoto.jpg" alt="">
+        <img src="images/BSPP2266.jpg" alt="" class="imageItem">
     </section>
     <main class="about-me flex flex-column text-center">
         <p class="about-me-title">
             About me
         </p>
         <p class="about-me-text">
-            Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.
+            Hi, I'm Nurba – UX/UI designer from Minsk. I'm interested in design and everything connected with it.
         </p>
         <p class="about-me-text">I'm studying at courses
             "Web and mobile design interfaces"
@@ -79,41 +65,27 @@
         <div class="skills-content flex flex-column text-center">
             <div class="skills-content-first">
                 <div class="skills-content-image">
-                    <img src="images/Group.png" alt="">
+                    <img src="images/html.png" alt="">
                 </div>
                 <p class="skills-content-text">
-                    Adobe </br>
-                    Photoshop
+                    Html
                 </p>
                 <div class="skills-content-stars">
-                    <img src="images/stars1.png" alt="">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
                 </div>
             </div>
             <div class="skills-content-second">
                 <div class="skills-content-image">
-                    <img src="images/AI.png" alt="">
+                    <img src="images/css.png" alt="">
                 </div>
                 <p class="skills-content-text">
-                    Adobe </br>
-                    Illustrator
+                    Css
                 </p>
                 <div class="skills-content-stars">
-                    <img src="images/stars1.png" alt="">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
                 </div>
             </div>
             <div class="skills-content-third">
-                <div class="skills-content-image">
-                    <img src="images/AE.png" alt="">
-                </div>
-                <p class="skills-content-text">
-                    Adobe </br>
-                    After Effects
-                </p>
-                <div class="skills-content-stars">
-                    <img src="images/stars1.png" alt="">
-                </div>
-            </div>
-            <div class="skills-content-fourth">
                 <div class="skills-content-image">
                     <img src="images/figma.png" alt="">
                 </div>
@@ -121,16 +93,59 @@
                     Figma
                 </p>
                 <div class="skills-content-stars">
-                    <img src="images/star2.png" alt="">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                </div>
+            </div>
+            <div class="skills-content-fourth">
+                <div class="skills-content-image">
+                    <img src="images/Group.png" alt="">
+                </div>
+                <p class="skills-content-text">
+                    Adobe </br> Photoshop
+                </p>
+                <div class="skills-content-stars">
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                </div>
+            </div>
+            <div class="skills-content-fives">
+                <div class="skills-content-image">
+                    <img src="images/javascript.png" alt="">
+                </div>
+                <p class="skills-content-text">
+                    JavaScript
+                </p>
+                <div class="skills-content-stars">
+                    <p>&#9733; &#9733; &#9734; &#9734; &#9734;</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="portfolio flex flex-column text-center">
+    <!-- <section class="portfolio flex flex-column text-center">
         <p class="portfolio-title">
             Portfolio
         </p>
-    </section>
+    </section> -->
+    <footer class="contacts flex flex-column align-center text-center">
+        <p class="contacts-title">
+            Contacts
+        </p>
+        <p class="contacts-text">Хотите узнать больше или просто поболтать?
+            <br>
+            Добро пожаловать!</p>
+        <button class="contacts-btn"><a href="https://t.me/dalimbekov" target="_blank"
+                rel="noopener noreferrer">Отправить сообщение</a></button>
+        <div class="social flex justify-between">
+            <a href="https://www.instagram.com/dalimbekov101/" target="_blank" class="social-link">
+                <img src="images/instagram.svg" alt="instagram" class="social-img"></a>
+            <a href="https://vk.com/id260899332" target="_blank" class="social-link">
+                <img src="images/vk-social-logotype.svg" alt="vk" class="contacts-img"></a>
+            <a href="https://www.facebook.com/" target="_blank" class="social-link">
+                <img src="images/facebook.svg" alt="facebook" class="contacts-img"></a>
+            <!-- <a href="https://twitter.com" target="_blank" class="social-link">
+                <img src="images/twitter.svg" alt="twitter" class="contacts-img"></a> -->
+        </div>
+    </footer>
+
     <script src="main.js"></script>
 </body>
 

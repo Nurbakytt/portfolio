@@ -22,73 +22,75 @@
     color: var(--primary-black);
 }
 
-.menu-toggle span {
-    width: 32px;
-    height: 4px;
-    margin-bottom: 4px;
-    background-color: var(--primary-black);
+.ham {
+    position: absolute;
+    z-index: 1000;
+    top: 16px;
+    right: 26px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
+    background-size: 100%;
+    outline: none;
 }
 
-.menu-content span {
-    width: 33px;
-    height: 4px;
-    background-color: var(--primary-black);
-    margin-bottom: 4px;
+.showClose {
+    background-image: url("../images/iconfinder_icon-close_211652.svg");
+    position: fixed;
 }
 
-.menu {
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    background-color: #ffffff;
+    width: 100vw;
     height: 100vh;
-    display: none;
-    padding: 36px 26px;
-    
+    overflow: scroll;
+    color: #828282;
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
 }
 
-.menu .visible {
-    transform: translateX(0);
-}
-.close .first {
-    position: absolute;
-    width: 27px;
-    height: 4px;
-    left: 315px;
-    top: 50px;
-    background: #828282;
-    transform: rotate(-45deg);
+.showNav {
+    transform: translateY(0);
 }
 
-.close .second {
-    position: absolute;
-    width: 27px;
-    height: 4px;
-    left: 315px;
-    top: 50px;
-    background: #828282;
-    transform: rotate(45deg);
+.navbar ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
 }
 
-.menu-content-list_item {
-    padding-bottom: 45px;
-}
-
-.menu-content-link.active {
-    color: var(--primary-black);
-}
-
-.menu-content-link {
+.navbar ul li a {
+    color: #828282;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #828282;
+    text-decoration: none;
     font-family: Gilroy-Bold, sans-serif;
     font-size: 34px;
-    line-height: 42px;
-    color: #828282;
-    text-decoration: none;
+}
+
+.navbar ul li a:hover, .navbar ul li a:focus {
+    color: #000;
+    border-bottom: 2px solid #828282;
 }
 
 .image {
     padding: 29px 29px 60px 29px;
+}
+
+.imageItem {
+    width: 100%;
 }
 
 .about-me {
@@ -105,7 +107,7 @@
 }
 
 .about-me-text {
-    font-family: Gilroy-Medium;
+    font-family: 'Gilroy-Medium', sans-serif;
     font-size: 18px;
     line-height: 22px;
     color: var(--primary-black);
@@ -114,7 +116,7 @@
 
 .skills {
     padding-top: 80px;
-    padding-bottom: 95px;
+    /* padding-bottom: 95px; */
 }
 
 .skills-title {
@@ -137,12 +139,16 @@
     font-size: 14px;
     line-height: 17px;
     margin-top: 24px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: #828282;
 }
 
 .skills-content-stars {
     margin-bottom: 60px;
+}
+
+.skills-content-stars p {
+    font-size: 30px;
 }
 
 .portfolio {
@@ -158,28 +164,49 @@
     padding-bottom: 29px;
 }
 
+.contacts {
+    padding: 82px 30px;
+    background: #fff;
+}
 
+.contacts-title {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+}
 
+.contacts-text {
+    margin-top: 27px;
+    font-weight: 600;
+    font-family: 'Nerko One', cursive;
+    /* font-family: Gilroy-Medium; */
+    font-size: 18px;
+    line-height: 22px;
+}
 
+.contacts-btn {
+    margin-top: 40px;
+    padding: 14px 32px;
+    border-radius: 50px;
+    border: none;
+    outline-style: none;
+    background-color: #000;
+    color: #fff;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
 
+.contacts-btn a {
+    color: #fff;
+    text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.social {
+    margin: 48px 0 auto;
+    width: 100%;
+}
 
 @media (min-width: 768px) {
     .nav__links {
