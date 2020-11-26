@@ -11,8 +11,8 @@ const navbar = document.querySelector('.navbar')
 const ham = document.querySelector('.ham')
 
 function toggleHamburger() {
-    navbar.classList.toggle('showNav')
-    ham.classList.toggle('showClose')
+    navbar.classList.toggle('show__nav')
+    ham.classList.toggle('show__close')
 }
 
 ham.addEventListener('click', toggleHamburger)
