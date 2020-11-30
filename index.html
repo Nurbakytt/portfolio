@@ -4,147 +4,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <title>Portfolio</title>
+    <title>Портфолио</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-menu flex justify-between">
-            <p class="header-title flex flex-column">
-                <span>Нурбакыт</span><span>Далимбек</span>
+<header class="header">
+    <div class="header-menu flex justify-between">
+        <p class="header-title flex flex-column">
+            <span>Нурбакыт</span><span>Далимбек</span>
+        </p>
+    </div>
+    <button class="ham"></button>
+    <nav class="navbar">
+        <ul class="navbar__list">
+            <li>
+                <a href="#" class="menu__link">Главная</a>
+            </li>
+            <li>
+                <a href="#" class="menu__link">Обо мне</a>
+            </li>
+            <li>
+                <a href="#" class="menu__link">Навыки</a>
+            </li>
+            <li>
+                <a href="#" class="menu__link">Портфолио</a>
+            </li>
+            <li>
+                <a href="#" class="menu__link">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="header-text flex flex-column">
+        <span>младший разработчик</span>
+        <span>22 года, г. Алматы</span>
+    </div>
+</header>
+<header class="header_desktop flex flex-column">
+    <div class="container">
+        <div class="header_desktop__body">
+            <nav class="header_desktop__menu">
+                <ul class="header_menu__list flex justify-between">
+                    <li>
+                        <a href="#" class="header_menu__link active">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header_menu__link">Обо мне</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header_menu__link">Навыки</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header_menu__link">Портфолио</a>
+                    <li>
+                        <a href="#" class="header_menu__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header_desktop__author flex align-flex-end justify-between">
+                <p class="header_desktop__title flex flex-column">
+                    <span>Нурбакыт</span><span>Далимбек</span>
+                </p>
+                <p class="header_desktop__text text-center">младший разработчик <br/> 22 года, Алматы</p>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="image">
+    <img src="images/first-photo.jpg" alt="" class="image__item">
+</section>
+<section class="desktop_image flex text-center justify-center">
+    <img src="images/photo.JPG" alt="">
+</section>
+<main class="about-me flex flex-column text-center">
+    <p class="about-me-title">
+        Обо мне
+    </p>
+    <p class="about-me-text">
+        Привет, я Нурбакыт - младший разработчик из Алматы. Интересуюсь веб-разботкой и всем, что с ней связано.
+    </p>
+    <p class="about-me-text">Я окончил Евразийский Национальный Университет имени Л.Н.Гумилева по специальности
+        Вычислительная техника и программное обеспечение</p>
+    <p class="about-me-text">Готов реализовывать отличные проекты с замечательными людьми.</p>
+</main>
+<section class="skills flex flex-column text-center" id="skills_id">
+    <p class="skills-title">
+        Навыки
+    </p>
+    <p class="skills-text">
+        Я умею работать в таких программах как
+    </p>
+    <div class="skills__content">
+        <div class="skills_content__item">
+            <div class="skills-content-image">
+                <img src="images/html.png" alt="">
+            </div>
+            <p class="skills-content-text">
+                Html
             </p>
-        </div>
-        <button class="ham"></button>
-        <nav class="navbar">
-            <ul class="navbar__list">
-                <li>
-                    <a href="#" class="menu__link">Home</a>
-                </li>
-                <li><a href="#" class="menu__link">About me</a>
-                </li>
-                <li><a href="#" class="menu__link">Skills</a>
-                </li>
-                <li><a href="#" class="menu__link">Portfolio</a>
-                </li>
-                <li><a href="#" class="menu__link">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="header-text flex flex-column">
-            <span>младший разработчик</span>
-            <span>22 года, г. Алматы</span>
-        </div>
-    </header>
-    <section class="image">
-        <img src="images/BSPP2266.jpg" alt="" class="image__item">
-    </section>
-    <main class="about-me flex flex-column text-center">
-        <p class="about-me-title">
-            About me
-        </p>
-        <p class="about-me-text">
-            Hi, I'm Nurba – UX/UI designer from Minsk. I'm interested in design and everything connected with it.
-        </p>
-        <p class="about-me-text">I'm studying at courses
-            "Web and mobile design interfaces"
-            in IT-Academy.</p>
-        <p class="about-me-text">Ready to implement excellent projects with wonderful people.</p>
-    </main>
-    <section class="skills flex flex-column text-center">
-        <p class="skills-title">
-            Skills
-        </p>
-        <p class="skills-text">
-            I work in such programs as
-        </p>
-        <div class="skills-content flex flex-column text-center">
-            <div class="skills-content-first">
-                <div class="skills-content-image">
-                    <img src="images/html.png" alt="">
-                </div>
-                <p class="skills-content-text">
-                    Html
-                </p>
-                <div class="skills-content-stars">
-                    <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
-                </div>
-            </div>
-            <div class="skills-content-second">
-                <div class="skills-content-image">
-                    <img src="images/css.png" alt="">
-                </div>
-                <p class="skills-content-text">
-                    Css
-                </p>
-                <div class="skills-content-stars">
-                    <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
-                </div>
-            </div>
-            <div class="skills-content-third">
-                <div class="skills-content-image">
-                    <img src="images/figma.png" alt="">
-                </div>
-                <p class="skills-content-text">
-                    Figma
-                </p>
-                <div class="skills-content-stars">
-                    <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
-                </div>
-            </div>
-            <div class="skills-content-fourth">
-                <div class="skills-content-image">
-                    <img src="images/Group.png" alt="">
-                </div>
-                <p class="skills-content-text">
-                    Adobe </br> Photoshop
-                </p>
-                <div class="skills-content-stars">
-                    <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
-                </div>
-            </div>
-            <div class="skills-content-fives">
-                <div class="skills-content-image">
-                    <img src="images/javascript.png" alt="">
-                </div>
-                <p class="skills-content-text">
-                    JavaScript
-                </p>
-                <div class="skills-content-stars">
-                    <p>&#9733; &#9733; &#9734; &#9734; &#9734;</p>
-                </div>
+            <div class="skills-content-stars">
+                <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
             </div>
         </div>
-    </section>
-    <!-- <section class="portfolio flex flex-column text-center">
-        <p class="portfolio-title">
-            Portfolio
-        </p>
-    </section> -->
-    <footer class="contacts flex flex-column align-center text-center">
-        <p class="contacts-title">
-            Contacts
-        </p>
-        <p class="contacts-text">Хотите узнать больше или просто поболтать?
-            <br>
-            Добро пожаловать!</p>
-        <button class="contacts-btn"><a href="https://t.me/dalimbekov" target="_blank"
-                rel="noopener noreferrer">Отправить сообщение</a></button>
-        <div class="social flex justify-around">
-            <a href="https://www.instagram.com/dalimbekov101/" target="_blank" class="social-link">
-                <img src="images/instagram.svg" alt="instagram" class="social-img"></a>
-            <a href="https://vk.com/id260899332" target="_blank" class="social-link">
-                <img src="images/vk-social-logotype.svg" alt="vk" class="contacts-img"></a>
-            <a href="https://www.facebook.com/" target="_blank" class="social-link">
-                <img src="images/facebook.svg" alt="facebook" class="contacts-img"></a>
+        <div class="skills_content__item">
+            <div class="skills-content-image">
+                <img src="images/css.png" alt="">
+            </div>
+            <p class="skills-content-text">
+                Css
+            </p>
+            <div class="skills-content-stars">
+                <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+            </div>
         </div>
-    </footer>
+        <div class="skills_content__item">
+            <div class="skills-content-image">
+                <img src="images/figma.png" alt="">
+            </div>
+            <p class="skills-content-text">
+                Figma
+            </p>
+            <div class="skills-content-stars">
+                <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+            </div>
+        </div>
+        <div class="skills_content__item">
+            <div class="skills-content-image">
+                <img src="images/Group.png" alt="">
+            </div>
+            <p class="skills-content-text">
+                Adobe Photoshop
+            </p>
+            <div class="skills-content-stars">
+                <p>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+            </div>
+        </div>
+        <div class="skills_content__item">
+            <div class="skills-content-image">
+                <img src="images/javascript.png" alt="">
+            </div>
+            <p class="skills-content-text">
+                JavaScript
+            </p>
+            <div class="skills-content-stars">
+                <p>&#9733; &#9733; &#9734; &#9734; &#9734;</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="portfolio flex flex-column text-center">
+    <p class="portfolio-title">
+        Портфолио
+    </p>
+    <div class="portfolio__screenshots">
+        <img src="images/port-item.jpg" alt="" class="portfolio__screenshots-item">
+        <img src="images/port-item1.jpg" alt="" class="portfolio__screenshots-item">
+    </div>
+    <p class="portfolio__text">Подробнее,<br/>Оставлю тут ссылку на <a href="https://github.com/" target="blank"
+                                                                       class="portfolio_git__link">GitHub</a></p>
 
-    <script src="main.js"></script>
+</section>
+<footer class="contacts flex flex-column align-center text-center">
+    <p class="contacts-title">
+        Контакты
+    </p>
+    <p class="contacts-text">Хотите узнать больше или просто поболтать?
+        <br>
+        Добро пожаловать!</p>
+    <button class="contacts-btn"><a href="https://t.me/dalimbekov" target="_blank"
+                                    rel="noopener noreferrer">Напишите мне</a></button>
+    <div class="social">
+        <a href="https://www.instagram.com/dalimbekov101/" target="_blank" class="social-link">
+            <img src="images/instagram.svg" alt="instagram" class="social-img"></a>
+        <a href="https://vk.com/id260899332" target="_blank" class="social-link">
+            <img src="images/vk-social-logotype.svg" alt="vk" class="contacts-img"></a>
+        <a href="https://www.facebook.com/" target="_blank" class="social-link">
+            <img src="images/facebook.svg" alt="facebook" class="contacts-img"></a>
+    </div>
+    <p class="social__text">Поставь лайк в инстаграм, вконтакте, фейсбуке</p>
+</footer>
+<script src="main.js"></script>
 </body>
 
 </html>
