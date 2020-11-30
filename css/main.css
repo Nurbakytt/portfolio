@@ -324,8 +324,10 @@
         display: none;
     }
     .desktop_image {
+        transition: transform 0.5s ;
         display: block;
-        padding-bottom: 60px;
+        padding-bottom: 30px;
+        margin: 0 auto;
     }
     .skills__content {
         display: flex;
