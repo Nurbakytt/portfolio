@@ -40,6 +40,7 @@
 .show__close {
     background-image: url(../images/close.svg);
     position: fixed;
+    z-index: 1111111111111;
 }
 
 .navbar {
@@ -55,6 +56,7 @@
     color: var(--primary-darkGray);
     transform: translateY(-100%);
     transition: transform 0.2s ease;
+    z-index: 9999;
 }
 
 .show__nav {
@@ -89,6 +91,7 @@
 .image {
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
     padding: 29px 29px 60px 29px;
+    z-index: 000000000;
 }
 
 .image__item {
@@ -235,8 +238,9 @@
 
 .social {
     display: flex;
-    justify-content: space-around;
-    margin: 48px 0 auto;
+    justify-content: space-evenly;
+    margin:  0 auto;
+    padding: 48px 0 48px 0;
     width: 100%;
 }
 
@@ -245,8 +249,7 @@
     font-family: Gilroy-Medium, sans-serif;
     line-height: 22px;
     color: var(--primary-darkGray);
-    padding-top: 48px;
-    padding-bottom: 65px;
+    padding-bottom: 45px;
 }
 
 /* DESKTOP */
