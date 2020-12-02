@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: var(--bg-color);
 }
 
 ul {
@@ -10,7 +11,7 @@ ul {
     list-style-type: none;
 }
 
-h1,h2,h3,p {
+h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
