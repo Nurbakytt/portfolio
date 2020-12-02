@@ -9,6 +9,7 @@ html {
     --ham-bg-color: #ffffff;
     --slide-color: #cccccc;
     --social-color: #161414;
+    --slide-before-color: #828282;
 }
 
 html[data-theme ='dark'] {
@@ -19,7 +20,8 @@ html[data-theme ='dark'] {
     --primary-darkWhite: #3a3a3a;
     --primary-dodgerBlue: #1e90ff;
     --bg-color: #202020;
-    --ham-bg-color: #6b6969;
-    --slide-color: #fffdfd;
+    --ham-bg-color: #ffffff;
+    --slide-color: #ffffff;
     --social-color: #fffbfb;
+    --slide-before-color: #828282;
 }

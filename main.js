@@ -25,7 +25,7 @@ function carousel () {
   setTimeout(carousel, 3000)
 }
 
-let checkbox = document.querySelector('.theme-switch__checkbox')
+const checkbox = document.querySelector('.theme-switch__checkbox')
 
 checkbox.addEventListener('change', function () {
   transition()
