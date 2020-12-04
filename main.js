@@ -22,7 +22,7 @@ function carousel () {
     myIndex = 1
   }
   x[myIndex - 1].style.display = 'block'
-  setTimeout(carousel, 3000)
+  setTimeout(carousel, 5000)
 }
 
 const checkbox = document.querySelector('.theme-switch__checkbox')

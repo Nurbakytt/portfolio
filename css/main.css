@@ -421,7 +421,6 @@ html.transition, html.transition * {
         display: none;
     }
     .desktop_image {
-        transition: transform 0.5s;
         display: block;
         padding-bottom: 30px;
         margin: 0 auto;
@@ -446,7 +445,6 @@ html.transition, html.transition * {
     .social-link:last-child {
         margin: 0;
     }
-    
 }
 
 @media (min-width: 768px) {
